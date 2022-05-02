@@ -245,7 +245,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
-			"xpos"			"c-300"
+			"xpos"			"c-290"
 			"ypos"			"25"
 			"zpos"			"1"
 			"wide"			"350"
@@ -452,7 +452,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-310"
+		"xpos"			"c-290"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"200"
@@ -477,7 +477,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"130"

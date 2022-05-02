@@ -188,7 +188,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-85"
+		"xpos"			"c-90"
 		"ypos"			"437"
 		"wide"			"100"
 		"tall"			"25"
@@ -211,7 +211,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayButton"
-		"xpos"			"c25"
+		"xpos"			"c20"
 		"ypos"			"437"
 		"zpos"			"3"
 		"wide"			"120"
@@ -235,9 +235,9 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RenderButton"
-		"xpos"			"c155"
+		"xpos"			"c150"
 		"ypos"			"437"
-		"wide"			"155"
+		"wide"			"140"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"

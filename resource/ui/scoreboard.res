@@ -189,7 +189,7 @@
 		"ypos"					"88"
 		"zpos"					"1"
 		"wide"					"2"
-		"tall"					"40"
+		"tall"					"266"//"40"
 		"autoResize"				"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -472,7 +472,7 @@
 		"ypos"					"117"
 		"ypos_minmode"			"96"
 		"zpos"					"-1"
-		"wide"					"594"
+		"wide"					"594" //594
 		"wide_minmode"			"253"
 		"tall"					"10"
 		"tall_minmode"			"10"
@@ -829,12 +829,12 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"				"InfoPanelBG"
-		"xpos"					"c-286"
+		"xpos"					"cs-0.5"
 		"xpos_minmode"			"20"
 		"ypos"					"c115"
 		"ypos_minmode"			"368"
 		"zpos"					"0"
-		"wide"					"572"
+		"wide"					"f0" //572
 		"wide_minmode"			"258"
 		"tall"					"49"
 		"tall_minmode"			"46"

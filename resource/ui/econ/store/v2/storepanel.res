@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-310"
+		"xpos"			"c-290"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -182,7 +182,7 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c20"
+		"xpos"			"c0"
 		"ypos"			"435"
 		"zpos"			"5"
 		"wide"			"25"
@@ -197,7 +197,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
 		"textAlignment"		"north-west"
-		"xpos"				"c55"
+		"xpos"				"c35"
 		"ypos"				"437"
 		"zpos"				"5"
 		"wide"				"100"
@@ -212,7 +212,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
-		"xpos"			"c180"
+		"xpos"			"c160"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"130"

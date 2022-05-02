@@ -19,7 +19,7 @@
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-288"
+		"item_backpack_offcenter_x"		"-290"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
@@ -95,7 +95,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
+		"xpos"			"c-290"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"20"
@@ -113,7 +113,7 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"c-270"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"480"
@@ -265,7 +265,7 @@
 		"labelText"		"#OnlyAllowUniqueQuality"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"c-306"
+		"xpos"			"c-296"
 		"ypos"			"340"
 		"zpos"			"1"
 		"wide"			"290"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c100"
+		"xpos"			"c90"
 		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"
@@ -306,7 +306,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c100"
+		"xpos"			"c90"
 		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"

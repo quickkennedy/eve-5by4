@@ -10,12 +10,12 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-
+		
 //		"bgcolor_override"	"0 0 0 240"
-
+		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
-
+		
 		"button_x_offset"	"-285"
 		"button_y"			"120"
 		"button_y_delta"	"5"
@@ -26,7 +26,7 @@
 			"wide"			"250"
 			"tall"			"26"
 			"visible"		"1"
-
+			
 			"SubButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -49,15 +49,15 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
+				
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
-
+				
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-
+				
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"
 				"SubImage"
@@ -72,43 +72,43 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-				}
-			}
+				}				
+			}		
 		}
-
+		
 		"SaxxySettings"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"-101"
+			"zpos"			"-101"		
 			"wide"			"f0"
 			"tall"			"480"
-
+			
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
+			
 			"flashbounds_x"	"50"
 			"flashbounds_y"	"65"
 			"flashbounds_w"	"250"
 			"flashbounds_h"	"120"
-
+			
 			"flashstartsize_min"	"8"
 			"flashstartsize_max"	"12"
-
+			
 			"flash_maxscale"		"4"
-
+			
 			"flash_lifelength_min"	".1"
 			"flash_lifelength_max"	".2"
-
+			
 			"curtain_anim_duration"		"4.0"
 			"curtain_open_time"		"2.8"
 			"flash_start_time"		"4.0"
-
+			
 			"initial_freakout_duration"		"15.0"
 			"clap_sound_duration"	"10.0"
-
+			
 			"CameraFlashSettings"
 			{
 				"visible"		"1"
@@ -119,13 +119,13 @@
 			}
 		}
 	}
-
+	
 	"DashboardDimmer"
 	{
 		"wide"			"5000"
 		"tall"			"5000"
 	}
-
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -140,13 +140,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-
+		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"25"
-
+		
 		"BG"
     	{
     		"ControlName"			"ImagePanel"
@@ -160,7 +160,7 @@
     		"enabled"			"1"
     		"fillcolor"			"55 55 55 255"
     	}
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -179,7 +179,7 @@
 			"centerwrap"	"1"
 		}
 	}
-
+	
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -206,7 +206,7 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
-
+		
 		if_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
@@ -228,7 +228,7 @@
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
 		if_halloween_5
-		{
+		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		if_fullmoon
@@ -240,7 +240,7 @@
 			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
-
+	
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -256,7 +256,7 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}
-
+	
 	"TFCharacterImage"
 	{
 		// "ControlName"	"ImagePanel"
@@ -270,7 +270,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
-
+	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -316,7 +316,7 @@
 		"sound_released"	"vo/null.mp3"
 		"actionsignallevel" "1"
 		"proportionaltoparent"	"1"
-
+				
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
@@ -341,7 +341,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"keyboardinputenabled" "0"
-		}
+		}		
 	}
 
 	"RankTooltipPanel"
@@ -357,10 +357,10 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 		"alpha"			"75"
 	}
-
+	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -417,7 +417,7 @@
 		"image"			"gc_dc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
-	}
+	}	
 
 	"RankBorder"
 	{
@@ -433,7 +433,7 @@
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"MainMenuBGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -448,9 +448,9 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"mouseinputenabled"	"0"
+		"mouseinputenabled"	"0"	
 	}
-
+	
 	"MMBGBottom"
 	{
 		"ControlName"			"ImagePanel"
@@ -464,7 +464,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
+		"tabPosition"			"0"	
 		"fillcolor"				"30 30 30 255"
 		"alpha"					"200"
 		"PaintBackgroundType"	"0"
@@ -482,12 +482,12 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
+		"tabPosition"			"0"	
 		"fillcolor"				"50 50 50 255"
 		"alpha"					"180"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"MainMenuBGPlaylists"
 	{
 		"ControlName"			"ImagePanel"
@@ -501,11 +501,11 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
+		"tabPosition"			"0"	
 		"fillcolor"				"30 30 30 255"
 		"alpha"					"100"
 		"PaintBackgroundType"	"0"
-	}
+	}		
 	"MainMenuBGmiddle"
 	{
 		"ControlName"			"ImagePanel"
@@ -519,10 +519,10 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
+		"tabPosition"			"0"	
 		"fillcolor"				"30 30 30 200"
 		"PaintBackgroundType"	"0"
-	}
+	}	
 	"MainMenuBGbottom"
 	{
 		"ControlName"			"ImagePanel"
@@ -536,10 +536,10 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
+		"tabPosition"			"0"	
 		"fillcolor"				"30 30 30 220"
 		"PaintBackgroundType"	"0"
-	}
+	}	
 	"PlayLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -557,7 +557,7 @@
 		"enabled"		"0"
 		"fgcolor_override"	"235 227 203 255"
 	}
-
+	
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -570,7 +570,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-
+		
 		"TipSubLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -590,7 +590,7 @@
 			"fgcolor_override"	"117 107 94 255"
 			"wrap"			"1"
 		}
-
+		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -611,7 +611,7 @@
 			"auto_wide_tocontents" "1"
 		}
 	}
-
+	
 	"ServerShortcutInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -622,13 +622,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"MOTD_ShowButtonPanel"
 		"navRight"		"ServerShortcut1"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -651,14 +651,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 			"image_drawcolor"	"245 236 212 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -703,13 +703,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcutInfo"
 		"navRight"		"ServerShortcut2"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -732,11 +732,11 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 		}
 	}
@@ -750,13 +750,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut1"
 		"navRight"		"ServerShortcut3"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -779,11 +779,11 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 		}
 	}
@@ -797,13 +797,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut2"
 		"navRight"		"ServerShortcut4"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -826,11 +826,11 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 		}
 	}
@@ -844,13 +844,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut3"
 		"navRight"		"ServerShortcut5"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -873,11 +873,11 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 		}
 	}
@@ -891,13 +891,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut4"
 		"navRight"		"ServerShortcut6"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -920,11 +920,11 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 		}
 	}
@@ -938,13 +938,13 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut5"
 		"navRight"		"MOTD_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -967,15 +967,15 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
-
+			
 			"defaultbgcolor_override"		"108 96 83 255"
 		}
 	}
-
+	
 	"CharacterSetupButton2"
 	{
 		"ControlName"	"EditablePanel"
@@ -987,13 +987,13 @@
 		"tall"			"23"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-
+		
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"ReplayBrowserButton"
 		"navRight"		"GeneralStoreButton"
 		"navLeft"		"ResumeGameButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1019,15 +1019,15 @@
 			"Command"		"engine open_charinfo"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"defaultbgcolor_override"		"200 190 166 255"
+			
+			"defaultbgcolor_override"		"200 190 166 255"			
 			"image_drawcolor"	"86 83 82 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1041,7 +1041,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_items"
-			}
+			}				
 		}
 	}
 	"ReplayBrowserButton"
@@ -1055,13 +1055,13 @@
 		"tall"			"23"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-
+		
 		"navUp"			"CharacterSetupButton"
 		"navDown"		"QuitButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navLeft"		"ResumeGameButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1087,15 +1087,15 @@
 			"Command"		"engine replay_reloadbrowser"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
-			"defaultbgcolor_override"		"200 190 166 255"
+			
+			"defaultbgcolor_override"		"200 190 166 255"			
 			"image_drawcolor"	"86 83 82 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1109,7 +1109,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_tv"
-			}
+			}				
 		}
 	}
 	"ShowPromoCodesButton"
@@ -1146,20 +1146,20 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"command"		"showpromocodes"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1173,8 +1173,8 @@
 				"enabled"		"1"
 				"image"			"glyph_items"
 				"scaleImage"	"1"
-			}
-		}
+			}				
+		}		
 	}
 
 	"Notifications_ShowButtonPanel"
@@ -1196,7 +1196,7 @@
 		"navLeft"		"QuickplayButton"
 		"navRight"		"Notifications_Panel"
 		"navToRelay"	"Notifications_ShowButtonPanel_SB"
-
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1211,8 +1211,8 @@
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
 			"drawcolor" "210 125 33 255"
-		}
-
+		}				
+		
 		"Notifications_CountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1231,7 +1231,7 @@
 			"enabled"		"1"
 			"fgcolor_override"	"255 255 255 255"
 		}
-
+	
 		"Notifications_ShowButtonPanel_SB"
 		{
 			"ControlName"	"CExImageButton"
@@ -1262,7 +1262,7 @@
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1294,7 +1294,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-
+		
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
 
@@ -1324,7 +1324,7 @@
 			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
-
+				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
@@ -1349,10 +1349,10 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
-			}
+			}		
 		}
 	}
-
+	
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1372,7 +1372,7 @@
 		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
 		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
 		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-
+		
 		"MOTD_ShowButtonPanel_SB"
 		{
 			"ControlName"	"CExImageButton"
@@ -1420,12 +1420,12 @@
 			}
 		}
 	}
-
+	
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c10-20"
+		"xpos"			"c-15"
 		"ypos"			"65"
 		"zpos"			"100"
 		"wide"			"300"
@@ -1438,7 +1438,7 @@
 		//"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		//"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
 		"navToRelay"		"MOTD_CloseButton"		// when naving to this it auto navs to this child instead
-
+		
 		"MOTD_HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -1448,7 +1448,7 @@
 			"wide"			"300"
 			"tall"			"22"
 			"visible"		"1"
-
+			
 			"MOTD_HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -1469,7 +1469,7 @@
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
-
+		
 		"MOTD_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1491,22 +1491,22 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
-
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"motd_hide"
-
+			
 			"navDown"		"MOTD_URLButton"
 			"navActivate"		"<PlayPVEButton"
-
+			
 			"paintbackground"	"0"
-
+			
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -1522,8 +1522,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}
-		}
+			}				
+		}	
 
 		"MOTD_HeaderIcon"
 		{
@@ -1539,7 +1539,7 @@
 			"image"			"class_icons/filter_all_motd"
 			"scaleImage"	"1"
 		}
-
+			
 		"MOTD_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1558,7 +1558,7 @@
 			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
-
+		
 		"MOTD_Label"
 		{
 			"ControlName"	"CExLabel"
@@ -1576,7 +1576,7 @@
 			"enabled"		"1"
 			"fgcolor"		"LabelDark"
 		}
-
+		
 		"MOTD_TitleImageBg"
 		{
 			"ControlName"	"ImagePanel"
@@ -1592,7 +1592,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
 		}
-
+		
 		"MOTD_TitleImageContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -1604,7 +1604,7 @@
 			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent" "1"
-
+			
 			"MOTD_TitleImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1620,7 +1620,7 @@
 				"scaleImage"	"0"
 			}
 		}
-
+			
 		"MOTD_TextScroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
@@ -1631,7 +1631,7 @@
 			"tall"			"110"
 			"PaintBackgroundType"	"2"
 			"fgcolor"		"LabelDark"
-
+			
 			"MOTD_TextPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -1642,7 +1642,7 @@
 				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-
+			
 				"MOTD_TextLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -1663,7 +1663,7 @@
 				}
 			}
 		}
-
+		
 		"MOTD_URLButton"
 		{
 			"ControlName"	"CExButton"
@@ -1688,21 +1688,21 @@
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
-
+			
 			"navUp"			"MOTD_CloseButton"
 			"navDown"		"MOTD_PrevButton"
 			"navLeft"		"MOTD_PrevButton"
 			"navRight"		"MOTD_NextButton"
-
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultFgColor_override" "235 226 202 255"
 			"defaultBgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
 		}
-
+		
 		"MOTD_PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1732,7 +1732,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -1749,8 +1749,8 @@
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}
-		}
-
+		}		
+		
 		"MOTD_NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1780,7 +1780,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
@@ -1799,7 +1799,7 @@
 			}
 		}
 	}
-
+		
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1813,13 +1813,13 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
-
+		
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"ReplayBrowserButton"
 		"navLeft"		"Notifications_ShowButtonPanel"
 		"navRight"		"ResumeGameButton"
 		"navToRelay"		"Notifications_CloseButton"
-
+		
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1841,19 +1841,19 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
-
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"Command"		"noti_hide"
+			
+			"Command"		"noti_hide"			
 			"navActivate"		"<PlayPVEButton"
-
+			
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -1869,9 +1869,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}
-		}
-
+			}				
+		}		
+	
 		"Notifications_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1890,7 +1890,7 @@
 			"fgcolor"		"LabelDark"
 			"wrap"			"1"
 		}
-
+		
 		"Notifications_Scroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
@@ -1901,7 +1901,7 @@
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"117 107 94 255"
-
+			
 			"Notifications_Control"
 			{
 				"ControlName"	"CMainMenuNotificationsControl"
@@ -1914,7 +1914,7 @@
 			}
 		}
 	}
-
+	
 	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1929,7 +1929,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-
+		
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
 
@@ -1959,7 +1959,7 @@
 			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
-
+				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
@@ -1984,10 +1984,10 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
-			}
+			}		
 		}
 	}
-
+	
 	"SteamWorkshopButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1999,13 +1999,13 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"ReplayBrowserButton"
 		"navLeft"		"GeneralStoreButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2028,18 +2028,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2053,10 +2053,10 @@
 				"enabled"		"1"
 				"image"			"glyph_steamworkshop"
 				"scaleImage"	"1"
-			}
-		}
+			}				
+		}		
 	}
-
+	
 	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2096,15 +2096,15 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 			"SubImage"
@@ -2119,10 +2119,10 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}
+			}		
 		}
 	}
-
+	
 	"GeneralStoreButton2"
 	{
 		"ControlName"	"EditablePanel"
@@ -2134,13 +2134,13 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"ReplayBrowserButton"
 		"navLeft"		"CharacterSetupButton2"
 		"navRight"		"SteamWorkshopButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2163,18 +2163,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2188,8 +2188,8 @@
 				"enabled"		"1"
 				"image"			"glyph_store"
 				"scaleImage"	"1"
-			}
-		}
+			}				
+		}		
 	}
 
 	"StoreBGPanel"
@@ -2205,7 +2205,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
-
+	
 	"VRBGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -2219,7 +2219,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 	}
-
+	
 	"CustomizeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -2349,7 +2349,7 @@
 			"fgcolor"		"137 134 127 255"
 		}
 	}
-
+	
 	"ResumeGameButtonBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -2361,7 +2361,7 @@
 		"tall"			"44"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2379,7 +2379,7 @@
 
 			"defaultbgcolor_override"		"30 30 30 200"
 			"armedbgColor_override" "30 30 30 200"
-			"depressedbgColor_override" "30 30 30 200"
+			"depressedbgColor_override" "30 30 30 200"			
 		}
 	}
 	"ReportPlayerButton"
@@ -2421,18 +2421,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2446,7 +2446,7 @@
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}
+			}				
 		}
 	}
 	"CallVoteButton"
@@ -2459,13 +2459,13 @@
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
-
+		
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
 		"navRight"		"RequestCoachButton"
 		"navLeft"		"MutePlayersButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2488,18 +2488,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2513,7 +2513,7 @@
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}
+			}				
 		}
 	}
 	"MutePlayersButton"
@@ -2526,13 +2526,13 @@
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
-
+		
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
 		"navLeft"		"ReportPlayerButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2555,18 +2555,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2580,7 +2580,7 @@
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}
+			}				
 		}
 	}
 	"RequestCoachButton"
@@ -2593,13 +2593,13 @@
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
-
+		
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
 		"navRight"		"QuickplayChangeButton"
 		"navLeft"		"CallVoteButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2622,18 +2622,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"border_default"	"MainMenuMiniButtonDefault"
 			"border_armed"		"MainMenuMiniButtonArmed"
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2647,10 +2647,10 @@
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}
+			}				
 		}
 	}
-
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -2664,7 +2664,7 @@
 		"enabled"		"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}
+	}				
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -2678,8 +2678,8 @@
 		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}
-
+	}	
+	
 	"AchievementsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2701,11 +2701,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navLeft"		"DisconnectButton"
 		"navRight"		"NewUserForumsButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		//"border_default"	"MainMenuSubButtonBorder"
@@ -2724,9 +2724,9 @@
 			"enabled"		"1"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-		}
-	}
-
+		}				
+	}	
+	
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2748,11 +2748,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navLeft"		"AchievementsButton"
 		"navRight"		"CommentaryButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		//"PaintBackgroundType" "0"
@@ -2771,9 +2771,9 @@
 			"enabled"		"1"
 			"image"			"glyph_tutorial"
 			"scaleImage"	"1"
-		}
-	}
-
+		}				
+	}		
+	
 	"CommentaryButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2795,11 +2795,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navLeft"		"NewUserForumsButton"
 		"navRight"		"CoachPlayersButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		//"border_default"	"MainMenuSubButtonBorder"
@@ -2818,9 +2818,9 @@
 			"enabled"		"1"
 			"image"			"glyph_forums"
 			"scaleImage"	"1"
-		}
-	}
-
+		}				
+	}		
+	
 	"CoachPlayersButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2842,11 +2842,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navLeft"		"CommentaryButton"
 		"navRight"		"ReportBugButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		//"border_default"	"MainMenuSubButtonBorder"
@@ -2865,9 +2865,9 @@
 			"enabled"		"1"
 			"image"			"glyph_commentary"
 			"scaleImage"	"1"
-		}
-	}
-
+		}				
+	}		
+	
 	"ReportBugButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2889,11 +2889,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine bug"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navLeft"		"CoachPlayersButton"
 		"navRight"		"AdvSettingsButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultbgcolor_override"		"128 116 103 255"
@@ -2911,8 +2911,8 @@
 			"enabled"		"1"
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
-		}
-	}
+		}				
+	}		
 	"AdvSettingsButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2923,12 +2923,12 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navLeft"		"ReportBugButton"
 		"navRight"		"SettingsButton"
 		"navToRelay"		"SubButton"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2951,18 +2951,18 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			//"border_default"	"MainMenuMiniButtonDefault"
 			//"border_armed"		"MainMenuMiniButtonArmed"
 			//"paintbackground"	"0"
-
+			
 			//"defaultFgColor_override" "46 43 42 255"
 			//"armedFgColor_override" "46 43 42 255"
 			//"depressedFgColor_override" "46 43 42 255"
 			"defaultbgcolor_override"		"128 116 103 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2976,8 +2976,8 @@
 				"enabled"		"1"
 				"image"			"glyph_options"
 				"scaleImage"	"1"
-			}
-		}
+			}				
+		}		
 	}
 	"TF2SettingsButton"
 	{
@@ -3000,7 +3000,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"opentf2options"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultbgcolor_override"		"128 116 103 255"
@@ -3018,7 +3018,7 @@
 			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
-		}
+		}				
 	}
 	"SettingsButton"
 	{
@@ -3043,17 +3043,17 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
-
+		
 		"navUp"			"ReplayBrowserButton"
 		"navRight"		"QuitButtonHidden"
 		"navLeft"		"AdvSettingsButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultbgcolor_override"		"128 116 103 255"
 		"image_drawcolor"	"235 226 202 255"
 	}
-
+	
 	"BackToReplaysButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3079,7 +3079,7 @@
 		"Command"		"exitreplayeditor"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
 		{
@@ -3094,9 +3094,9 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
-		}
-	}
-
+		}				
+	}			
+		
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
@@ -3301,7 +3301,7 @@
 				"textinsetx"	"20"
 				"fgcolor_override"	"235 227 203 255"
 			}
-
+	
 			"SaveSettingsButton"
 			{
 				"ControlName"	"CExButton"
@@ -3328,17 +3328,17 @@
 				"proportionaltoparent"	"1"
 				"command"		"safemode_save_settings"
 				"actionsignallevel"	"3"
-
+			
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
-
+			
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 			}
 
-
+	
 			"LeaveSafeModeButton"
 			{
 				"ControlName"	"CExButton"
@@ -3365,11 +3365,11 @@
 				"proportionaltoparent"	"1"
 				"command"		"safemode_leave"
 				"actionsignallevel"	"3"
-
+			
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
-
+			
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
@@ -3423,7 +3423,7 @@
 
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"300"
 		"autoResize"		"0"
@@ -3431,7 +3431,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"useparentbg"		"1"
-
+	
 		"inset_eq_x"	"2"
 		"inset_eq_y"	"2"
 
@@ -3447,7 +3447,7 @@
 			"angles_z"		"0"
 		}
 	}
-
+	
 	"PlayListContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -3552,14 +3552,14 @@
 					{
 						"fgcolor_override"	"TanDark"
 					}
-
+		
 					"UpButton"
 					{
 						"ControlName"	"Button"
 						"FieldName"		"UpButton"
 						"visible"		"0"
 					}
-
+		
 					"DownButton"
 					{
 						"ControlName"	"Button"
@@ -3582,7 +3582,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-
+	
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -3624,7 +3624,7 @@
 			"zpos"			"501"
 			"wide"			"f20"
 			"tall"			"110"
-			"visible"		"1"
+			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -3674,14 +3674,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-
+		
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-
+		
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -3700,7 +3700,7 @@
 			"zpos"			"499"
 			"wide"			"f20"
 			"tall"			"110"
-			"visible"		"1"
+			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -3708,7 +3708,7 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-
+	
 	"ItemsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -3720,7 +3720,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"0"
-
+		
 		"StoreBGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -3792,15 +3792,15 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
-
+			
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-
+			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"
 				"SubImage"
@@ -3815,7 +3815,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-				}
+				}		
 			}
 		}
 
@@ -3876,15 +3876,15 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
-
+			
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-
+			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"
 				"SubImage"
@@ -3899,11 +3899,11 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-				}
+				}		
 			}
 		}
 	}
-
+	
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -3930,7 +3930,7 @@
 			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"defaultbgcolor_override"		"0 0 0 0"
 			"depressedbgcolor_override"		"0 0 0 0"
 			"armedbgcolor_override"		"0 0 0 0"
