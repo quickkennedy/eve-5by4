@@ -32,7 +32,7 @@
 		"fieldName"				"HudWeaponAmmo"
 		"visible"				"1"
 		"enabled"				"1"		
-		"xpos"					"c100"
+		"xpos"					"c100-30"
 		"ypos"					"r82"
 		"wide"					"180"
 		"tall"					"70"

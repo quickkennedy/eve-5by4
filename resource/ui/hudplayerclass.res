@@ -428,8 +428,8 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-318"
-		"xpos_minmode"	"c-292"
+		"xpos"			"c-318+30"
+		"xpos_minmode"	"c-292+30"
 		"ypos"			"r94"
 		"ypos_minmode"	"r106"
 		"zpos"			"2"

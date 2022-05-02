@@ -22,8 +22,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c155"
-		"xpos_minmode"	"c135"
+		"xpos"			"c155-30"
+		"xpos_minmode"	"c135-30"
 		"ypos"			"c110" [!$OSX]
 		"ypos_minmode"	"c95" [!$OSX]
 		"ypos"			"c105" [$OSX]
@@ -47,8 +47,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueShadow"
-		"xpos"			"c157"
-		"xpos_minmode"	"c137"
+		"xpos"			"c157-30"
+		"xpos_minmode"	"c137-30"
 		"ypos"			"c112" [!$OSX]
 		"ypos_minmode"	"c97" [!$OSX]
 		"ypos"			"c107" [$OSX]
