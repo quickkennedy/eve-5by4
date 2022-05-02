@@ -113,7 +113,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
 		"font"				"HudFontSmallest"
-		"xpos"				"150"
+		"xpos"				"150-3"
 		"ypos"				"0" [!$OSX]
 		"ypos"				"1" [$OSX]
 		"zpos"				"6"

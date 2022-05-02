@@ -105,7 +105,7 @@
 		"fieldName"				"HudDemomanCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c130"
+		"xpos"					"c130-30"
 		"ypos"					"r97"
 		"zpos"					"1"		// draw in front of ammo
 		"wide"					"200"
@@ -122,7 +122,7 @@
 		"fieldName"				"HudBowCharge"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c135"
+		"xpos"					"c135-30"
 		"ypos"					"r96"
 		"zpos"					"2"		// draw in front of ammo
 		"wide"					"200"
