@@ -446,7 +446,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"c-290"
+		"xpos"			"c-290+30"
 		"ypos"			"r90"
 		"ypos_minmode"	"r-125"
 		"zpos"			"-2"
